@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-style: large;
+}
+
+.slabo-27px-regular {
+  font-family: "Slabo 27px", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Container {
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+p {
+  display: inline;
+  align-items: flex-end;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  color: #3aa7c9;
+}
+
+h2,
+h3 {
+  font-size: 1.75em;
+  font-weight: lighter;
+  text-align: center;
+  color: #3aa7c9;
+}
+
+.profile{
+  overflow: hidden;
+  position: relative;
+}
+
+.dp {
+  text-align: center;
+  border-radius: -27px;
+  width: 257px;
+  height: 407px;
+  background: #0084c7;
+  margin-left: -100px;
+  transform: rotateZ(45deg);
+  margin-top: -218px;
+}
+
+
+.dp img {
+  margin-top: 10px;
+  position: absolute;
+  z-index: 10;
+  width: 200px;
+  height: 200px;
+  transform: rotateZ(-43deg);
+  left: 71%;
+  top: 20%;
+  border-radius: 50%;
+  border: 3px solid var(--gray);
+}
+
+.profile {
+  border-radius: 20px;
+  background-color: rgb(245, 245, 243);
+  padding: 40px;
+  width: 30%;
+}
+
+.profile h2 {
+  font-size: x-large;
+  color: #4293c9;
+}
+.software {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Education{
+  width: 67%;
+  background-color: rgb(245, 245, 243);
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.contacts {
+  justify-content: left;
+}
+
+.Education h2{
+  text-align: left;
+}
+.Education h6{
+  font-size: larger;
+  font-weight: normal;
+  text-align: center;
+}
+
+.Education h4{
+  font-size: large;
+  justify-content: space-evenly;
+}
+
+.timeline{
+  display: flex;
+  justify-content: space-evenly;
+}
+.timeline h4{
+  text-align: center;
+}
+
+.hoby{
+  padding-right: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Education p1{
+  font-weight: normal;
+  padding: 63px;
+}
+
+@media only screen and (max-width: 1080px) {
+  .profile {
+    width: 100%;
+  }
+}
